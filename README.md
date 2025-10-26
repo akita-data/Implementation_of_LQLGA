@@ -2,8 +2,6 @@
 
 これは、QCFD-Labによって提案された量子格子ガスオートマトン（Lattice Quantum Lattice Gas Automaton - LQLGA）を、Qiskitとqlbmライブラリを用いてPythonで実装・シミュレーションするサンプルプロジェクトです。
 
----
-
 ## 概要 (Overview)
 
 このリポジトリは、[QCFD-Labの参考元](https://github.com/QCFD-Lab/qlbm)で示されたLQLGAアルゴリズムの理解を深めること、また、特定の初期条件下でのシミュレーション（特に1次元D1Q3モデル）を手軽に実行することを目的としています。
