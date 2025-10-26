@@ -1,4 +1,4 @@
-# === 1. 必要なライブラリのインポート ===
+# === 必要なライブラリのインポート ===
 import numpy as np
 import matplotlib.pyplot as plt
 from qlbm.components.lqlga import LQLGA, LQGLAInitialConditions
@@ -7,13 +7,13 @@ from qiskit import QuantumCircuit, transpile
 from qiskit_aer import AerSimulator
 import os
 
-# === 2. シミュレーションパラメータの設定 ===
-nx = 9
-velocity_model = "D1Q3"
-shots = 1024
-output_dir = "C:\\Users\\..."  # 画像保存先ディレクトリ
+# === シミュレーションパラメータの設定 ===
+nx = 9                          # 格子数
+velocity_model = "D1Q3"         # モデル
+shots = 1024                    # ショット回数
+output_dir = "C:\\Users\\..."   # 画像保存先ディレクトリ
 
-# === 3. 格子と境界条件の定義 ===
+# === 格子と境界条件の定義 ===
 def definition_condition():
     config = {
             "lattice": {"dim": {"x": nx}, "velocities": velocity_model},
