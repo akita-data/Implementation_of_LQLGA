@@ -19,6 +19,6 @@
 
 このプロジェクトは、以下の `QCFD-Lab/qlbm` に強くインスパイアされています。素晴らしい基盤研究とコードを提供してくださった原著者の方々に感謝いたします。
 
-* **リポジトリ:** [https://github.com/QCFD-Lab](https://github.com/QCFD-Lab)
+* **リポジトリ:** [https://github.com/QCFD-Lab/qlbm](https://github.com/QCFD-Lab/qlbm)
 
 **注意:** このリポジトリは `QCFD-Lab` による公式なものではなく、独立した実装です。
